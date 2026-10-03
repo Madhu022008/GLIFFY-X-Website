@@ -82,7 +82,7 @@ export default function Home() {
                         <div className="creative-person">
 
                             <img
-                                src="/assets/hero.png.png"
+                                src={`${import.meta.env.BASE_URL}assets/hero.png.png`}
                                 alt="GLIFFY.X Creative Designer"
                                 className="hero-person-image"
                             />
