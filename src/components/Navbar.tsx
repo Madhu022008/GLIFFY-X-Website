@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link to="/" className="logo">
           <img
-            src="/assets/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/logo.png`}
             alt="GLIFFY.X Logo"
             className="logo-image"
           />
